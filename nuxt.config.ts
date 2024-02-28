@@ -9,7 +9,8 @@ export default defineNuxtConfig({
       mergeProps: true
     }
   },
-  typescript: {
-    strict: true
-  }
+  
+  // typescript: {
+  //   strict: true
+  // }
 })
