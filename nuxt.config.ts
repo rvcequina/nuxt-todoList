@@ -1,16 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  vite: {
-    vue: {
-      customElement: true
-    },
-    vueJsx: {
-      mergeProps: true
-    }
+  modules: [
+    'nuxt-primevue'
+  ],
+  primevue: {
+      /* Options */
   },
-  
-  // typescript: {
-  //   strict: true
-  // }
+  css: ['primevue/resources/themes/aura-light-green/theme.css']
 })
